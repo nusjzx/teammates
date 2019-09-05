@@ -20,6 +20,7 @@ import { InstructorSessionResultPageComponent } from './instructor-session-resul
 import { InstructorSessionResultQuestionViewComponent } from './instructor-session-result-question-view.component';
 import { InstructorSessionResultRgqViewComponent } from './instructor-session-result-rgq-view.component';
 import { InstructorSessionResultRqgViewComponent } from './instructor-session-result-rqg-view.component';
+import {InstructorSessionNoResponsePanelComponent} from "./instructor-session-no-response-panel.component";
 
 describe('InstructorSessionResultPageComponent', () => {
   let component: InstructorSessionResultPageComponent;
@@ -34,6 +35,7 @@ describe('InstructorSessionResultPageComponent', () => {
         InstructorSessionResultGrqViewComponent,
         InstructorSessionResultRqgViewComponent,
         InstructorSessionResultGqrViewComponent,
+        InstructorSessionNoResponsePanelComponent,
       ],
       imports: [
         HttpClientTestingModule,

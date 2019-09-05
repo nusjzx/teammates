@@ -755,6 +755,7 @@ public final class Const {
         public static final String SESSION_PUBLISH = "/session/publish";
         public static final String SESSION_REMIND_SUBMISSION = "/session/remind/submission";
         public static final String SESSION_REMIND_RESULT = "/session/remind/result";
+        public static final String SESSION_RESPONSES = "/session/responses";
         public static final String SESSION_STATS = "/session/stats";
         public static final String SESSION_SUBMITTED_GIVER_SET = "/session/submitted/giverset";
         public static final String SESSIONS = "/sessions";
